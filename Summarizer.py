@@ -5,7 +5,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 from dotenv import load_dotenv
 from langchain import verbose
 
